@@ -131,7 +131,7 @@ After the install execute the following steps:
 
 3.  If you want to use the provided javascript examples
 
-    1.  Copy the 4GlCode/Examples directory into the propath of your
+    1.  Copy the Examples/4GlCode/Examples directory into the propath of your
         appserver
 
         -   They must be accessible as Examples/[program-name.p]
@@ -179,7 +179,7 @@ the cloud:
 
 Execute the following steps:
 
-1.  Pull the config/config.json file up in a text editor
+1.  Pull the node4progress.json file up in a text editor
 
     -   The contents of this file look as follows:
 
@@ -289,7 +289,7 @@ JSON structure passed as a string:
 
 In node the code for invoking a handler looks like this:
 
-    var conf = require("./config/config.json");
+    var conf = require("./node4progress.json");
     var node4progress = require("node4progressHttp")(conf);
     var handler="handlers/CustomerHandler.p";
     var inputPars = 'NumCustomersToPull=2';
@@ -446,7 +446,7 @@ Below is an example of a schema provider for a dataset:
 
 ## Code sample for calling a handler program:
 
-    var conf = require("./config/config.json");
+    var conf = require("./node4progress.json");
     var node4progress = require("node4progressHttp")(conf);
     var handler="handlers/CustomerHandler.p";
     var inputPars = 'NumCustomersToPull=2';
@@ -458,7 +458,7 @@ Below is an example of a schema provider for a dataset:
 
 ## Code sample for a dynamic appserver call:
 
-    var conf = require("./config/config.json");
+    var conf = require("./node4progress.json");
     var node4progress = require("node4progressHttp")(conf);
     node4progress.setAppsvrProc("Examples/CustUpdDs.p","",false,true);
 
@@ -746,5 +746,5 @@ The following are known issues that are currently being addressed:
 
 -   Installing node4progress on linux gives an error
 
-  []: ExampleOutput.png
-  [1]: ConfigScreenshot.png
+  []: ./examples/ExampleOutput.png
+  [1]: ./examples/ConfigScreenshot.png

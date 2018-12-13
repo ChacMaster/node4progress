@@ -1,8 +1,16 @@
 {
-  "name": "node4progress",
-  "version": "0.1.8",
+  "name": "node4progress-chac",
+  "version": "0.2.0",
   "description": "Connector to Progress Appserver",
-  "author": "Frank Hilhorst - Progressive Consulting Inc.",
+  "author": {
+    "name": "Carlos Carvalho",
+    "email": "carlos.carvalho@chac.com.br",
+    "url": "https://chac.com.br"
+  },
+  "contributors": [{ 
+      "name" : "Frank Hilhorst - Progressive Consulting Inc.", 
+      "url" : "https://github.com/FrankHilhorst/node4progress"
+  }],
   "main": "index.js",
   "scripts": {},
   "private": false,
@@ -17,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FrankHilhorst/node4progress.git"
+    "url": "https://github.com/ChacMaster/node4progress-chac.git"
   },
   "keywords": [
     "Progress",
@@ -27,7 +35,7 @@
   ],
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/FrankHilhorst/node4progress/issues"
+    "url": "https://github.com/ChacMaster/node4progress-chac/issues"
   },
-  "homepage": "https://github.com/FrankHilhorst/node4progress"
+  "homepage": "https://github.com/ChacMaster/node4progress-chac"
 }
